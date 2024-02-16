@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.controller-div {
+  min-height: 150px;
+  width: 100%;
+  background-color: #475569;
+  padding: 10px 40px;
+  color: #ffffff;
+}
+.tab-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+.tab-item {
+  list-style: none;
+}
+.tab-input {
+  margin-right: 10px;
+}
