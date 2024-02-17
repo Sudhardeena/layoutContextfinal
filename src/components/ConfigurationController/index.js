@@ -16,8 +16,8 @@ const ConfigurationController = () => (
       return (
         <div className="controller-div">
           <h1>Layout</h1>
-          <ul className="tab-list">
-            <li className="tab-item">
+          <div className="tab-list">
+            <div className="tab-item">
               <input
                 className="tab-input"
                 id="context"
@@ -28,8 +28,8 @@ const ConfigurationController = () => (
                 onChange={toggleShowContent}
               />
               <label htmlFor="context">Content</label>
-            </li>
-            <li className="tab-item">
+            </div>
+            <div className="tab-item">
               <input
                 className="tab-input"
                 id="leftNavbar"
@@ -40,8 +40,8 @@ const ConfigurationController = () => (
                 onChange={toggleShowLeftNavbar}
               />
               <label htmlFor="leftNavbar">Left Navbar</label>
-            </li>
-            <li className="tab-item">
+            </div>
+            <div className="tab-item">
               <input
                 className="tab-input"
                 id="rightNavbar"
@@ -52,8 +52,8 @@ const ConfigurationController = () => (
                 onChange={toggleShowRightNavbar}
               />
               <label htmlFor="rightNavbar">Right Navbar</label>
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
       )
     }}
