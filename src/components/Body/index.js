@@ -33,14 +33,14 @@ const Body = () => (
           {showRightNavbar && (
             <div className="right-navbar">
               <h1 className="heading">Right Navbar</h1>
-              <ul>
-                <li className="right-nav-item">
+              <div>
+                <div className="right-nav-item">
                   <p>Ad 1</p>
-                </li>
-                <li className="right-nav-item">
+                </div>
+                <div className="right-nav-item">
                   <p>Ad 2</p>
-                </li>
-              </ul>
+                </div>
+              </div>
             </div>
           )}
         </div>
